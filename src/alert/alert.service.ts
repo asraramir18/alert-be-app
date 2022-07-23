@@ -45,7 +45,7 @@ export class AlertService {
       Anomaly: input.Anomaly,
       Sensor: input.Sensor,
       soundClip: input.soundClip,
-      reason: input.reason,
+      suspectedReason: input.suspectedReason,
       action: input.action,
       comment: input.comment
     }

@@ -6,7 +6,7 @@ export const AlertSchema = new mongoose.Schema({
   Anomaly: { type: String, required: true },
   Sensor: { type: String, required: true },
   soundClip: { type: String, required: true },
-  reason: { type: String, required: false },
+  suspectedReason: { type: String, required: false },
   action: { type: String, required: false },
   comment: { type: String, required: false },
 });
@@ -17,7 +17,7 @@ export interface Alert {
   Anomaly: string;
   Sensor: string;
   soundClip: string;
-  reason: string;
+  suspectedReason: string;
   action: string;
   comment: string;
 }
